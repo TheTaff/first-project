@@ -13,11 +13,10 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  display: flex;
-  align-items: center;
+}
 
   /* выше установили ограничения для секции */
-}
+
 
 .logo{
   width: 228px;
@@ -41,7 +40,7 @@
   width: 730px;
 }
 
-.header__link{
+.header__subtitle{
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -50,6 +49,27 @@
   font-weight: normal;
   margin: 0;
   width: 388px;
+}
+
+.header__main-illustration{
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  bottom: 0;
+  right: 0;
+  background-image: url("../images/two_again.png");
+  background-size: cover;
+  z-index: 2; 
+}
+
+.header__square-pic{
+  position: absolute;
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  top: 64px;
+  right: 0;
+  z-index: 1; 
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
